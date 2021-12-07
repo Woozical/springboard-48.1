@@ -12,7 +12,7 @@ describe("separatePositive", function() {
   it("moves positives to the left and negatives to the right", function() {
     var arr = [2, -1, -3, 6, -8, 10];
     separatePositive(arr);
-
+    console.log(arr);
     expect(arr[0] > 0).toBe(true);
     expect(arr[1] > 0).toBe(true);
     expect(arr[2] > 0).toBe(true);
